@@ -14,4 +14,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./ hassan62704.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ hassan62704.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
